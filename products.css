@@ -1,0 +1,63 @@
+
+
+.products-filter{
+    display: flex;
+}
+
+.filter{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    position: sticky;
+    top:8rem;
+}
+
+.filter-heading{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filter-price{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filter-category{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filter-rating{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filter-lowAndHigh{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.products{
+    width: 80%;
+    margin: 1rem;
+}
+
+.btn-margin{
+    margin-bottom: 1rem;
+}
+
+.products-all{
+    display: flex;
+    flex-wrap: wrap;
+}
+
